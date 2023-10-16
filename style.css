@@ -1,0 +1,31 @@
+h1 {
+  font-family: 'Caveat', cursive;
+font-family: 'Tangerine', cursive;
+font-weight: 100;
+}
+
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #30333a, #72676f, #9a8d96, #b0a6a7, #b79d9b, #51403d);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .profile-img {
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 1pc;
+  }  
